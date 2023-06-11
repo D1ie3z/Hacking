@@ -5,3 +5,5 @@
 * reg query HKCU /f password /t REG_SZ /s
 
 [+] Go to : https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
+
+IF YOU FIND ANY CREDENTIAL TRY TO REUSE IT IN OTHER SERVICES OR LOGINS!!!

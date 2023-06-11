@@ -14,3 +14,5 @@ If you have troubles uncomment the Port 22 and change for Port 8888 on file /etc
 
 * netstat -ano (You could try also on your own machine)
 [!] TRY TO USE THE ENTER KEY A COUPLE OF TIMES IN CASE YOU DON'T SEE NOTHING
+
+* winexe -U user%pass //IP "cmd.exe"

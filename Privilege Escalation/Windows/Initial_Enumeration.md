@@ -15,7 +15,7 @@
 * whoami /priv
 * whoami /groups
 * net user
-* net user exampleUser -> give specific information of "exampleUser" (Obviusly you have to chage for the name of the user that you want to know)
+* net user exampleUser -> give specific information of "exampleUser" (Obviusly you have to change for the name of the user that you want to know)
 * net localgroup
 * net localgroup administrators (The same you have to change for the group you want)
 

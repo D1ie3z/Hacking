@@ -16,3 +16,6 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20an
 ## Potato Attacks
 https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
 https://github.com/ohpe/juicy-potato
+
+We need a vali CLSID and Port Number
+https://github.com/ohpe/juicy-potato/blob/master/CLSID/GetCLSID.ps1

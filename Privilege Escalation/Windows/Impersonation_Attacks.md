@@ -12,3 +12,7 @@ We run mimikatz
 * whoami /priv
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md#eop---impersonation-privileges
+
+## Potato Attacks
+https://foxglovesecurity.com/2016/09/26/rotten-potato-privilege-escalation-from-service-accounts-to-system/
+https://github.com/ohpe/juicy-potato

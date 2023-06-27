@@ -39,6 +39,8 @@
 
 ## Processes
 * tasklist /svc
+* * reg query HKLM\Software\Policies\Microsoft\Windows\Installer -> See if “AlwaysInstallElevated” value is 1.
+* reg query HKLM\Software\Policies\Microsoft\Windows\Installer -> SEE “AlwaysInstallElevated” value is 1.
 
 ## Readable/writable files and directories
 * accesscheck.exe -uws "Everyone" "C:\Program Files"

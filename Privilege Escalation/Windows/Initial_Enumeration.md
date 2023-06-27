@@ -27,7 +27,7 @@
 
 ## Password hunting
 * findstr /si password *.txt *.ini *.config (I recommend doing it on the system32 path)
-* cmdke /list
+* cmdkey /list
 * USE THE RESOURCES THAT I GAVE YOU
 
 ## AV and Firewall Enumeration

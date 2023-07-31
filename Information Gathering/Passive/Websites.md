@@ -7,6 +7,7 @@ Some tools to gather information from the website
 * Recon-ng: https://www.kali.org/tools/recon-ng/
 * Opensource Code: Gitlab, Github, DockerHub, Postman, Swagger, SourceForge, StackOverflow.
 * Github: https://github.com/advisories or filters (hostname: victim.com port: "1324")
+* Gitleaks: https://github.com/gitleaks/gitleaks
 * Shodan: https://www.shodan.io/
 * Censys: https://search.censys.io/
 * Netlas: https://netlas.io/

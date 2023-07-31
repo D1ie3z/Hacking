@@ -9,3 +9,5 @@ Bla bla bla tips
 * mkdir directory
 * mount -o nolock IP:/directory ~/directory/
 * GO AND FUCK THAT MACHINE
+
+* Hacktricks: https://book.hacktricks.xyz/network-services-pentesting/nfs-service-pentesting && https://book.hacktricks.xyz/network-services-pentesting/pentesting-rpcbind

@@ -4,7 +4,7 @@ See how to use it.
 * Nmap: https://www.kali.org/tools/nmap/
 * Masscan: https://www.kali.org/tools/masscan/
 * Netcat: https://www.kali.org/tools/netcat/
-* Use the script portScanning.sh
+* Use the script portScanner.sh
 
 ## Tips
 * UDP Scanning: -sU (in Nmap and you have to be as root)

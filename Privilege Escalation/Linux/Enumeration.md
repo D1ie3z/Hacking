@@ -4,6 +4,7 @@ A lot of ways to enumerate, do the manual way first and then use a tool.
 * Sudo -l
 ## Kernel
 * uname -a
+* cat /etc/os-release
 ## Groups 
 * find / -group developer 2>/dev/null
 ## Hostname
@@ -19,18 +20,23 @@ A lot of ways to enumerate, do the manual way first and then use a tool.
 * ps aux
 ## ENVIRONMENT
 * env
-## ENLISTAR 
+## LIST 
 * ls -la
+* dpkg -l
 ## ID
 * id
 ## PASSWD
 * cat /etc/passwd
 ## HISTORY
 * history
-## REDES
-* Ifconfig
+## NETWORK
+* ifconfig
 * iproute
 * ipaddr
+* ip a
+* routel
+* ss -anp
+* cat /etc/iptables/rules.v4
 ## NETSTAT
 * netstat -a: shows all listening ports and established connections.
 * netstat -at or netstat -au can also be used to list TCP or UDP protocols respectively.
@@ -39,7 +45,7 @@ A lot of ways to enumerate, do the manual way first and then use a tool.
 * netstat -tp: list connections with the service name and PID information.(netstat -ltp)
 * netstat -i: Shows interface statistics. We see below that “eth0” and “tun0” are more active than “tun1”.
 
-### The netstat usage you will probably see most often in blog posts, write-ups, and courses is netstat -ano which could be broken down as follows;
+### The netstat usage you will probably see most often in blog posts, write-ups, and courses is netstat -ano which could be broken down as follows
     * -a: Display all sockets
     * -n: Do not resolve names
     * -o: Display timers
@@ -76,9 +82,20 @@ As we are in the Linux realm, familiarity with Linux commands, in general, will 
 ## Capabilities
 * getcap -r / 2>/dev/null (sino funciona extiende el path)
 * cron
+* cat /etc/cron*
 * cat /etc/crontab
- 
+* crontab -l
+
+## MOUNT
+* cat /etc/fstab
+* mount
+* lsblk
+
+## LIBATA
+* /sbin/modinfo libata
+
 ## AUTOMATED
+* Unix-privesc-check /usr/bin/unix-privesc-check
 * LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
 * LinEnum: https://github.com/rebootuser/LinEnum
 * LES (Linux Exploit Suggester): https://github.com/mzet-/linux-exploit-suggester

@@ -14,5 +14,6 @@ Try to retrieve data like: ns, a, mx, ptr, cname, txt.
 * Sublist3r: https://www.kali.org/tools/sublist3r/
 * CTRF: https://offsec.tools/tool/ctfr
 * dig: https://toolbox.googleapps.com/apps/dig/ or in yout console use dig --help
+* traceroute: traceroute site.com or tracert site.com 
 
 * Here are some more: https://book.hacktricks.xyz/network-services-pentesting/pentesting-dns

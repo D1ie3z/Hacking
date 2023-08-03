@@ -10,6 +10,8 @@ Some tools to gather information from the website
 * Gitleaks: https://github.com/gitleaks/gitleaks
 * Shodan: https://www.shodan.io/
 * Censys: https://search.censys.io/
+* ViewDNS.info: https://viewdns.info/
+* Threat Intelligence Platform: https://threatintelligenceplatform.com/
 * Netlas: https://netlas.io/
 * Securitytrails: https://securitytrails.com/
 * Pastebin: https://pastebin.com/

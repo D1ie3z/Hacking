@@ -15,3 +15,4 @@ Some tools to gather information from the website
 * Pastebin: https://pastebin.com/
 * SSL Server: https://pentest-tools.com/network-vulnerability-scanning/ssl-tls-scanner
 * Wappalizer: https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es
+* Recon-ng: https://www.kali.org/tools/recon-ng/

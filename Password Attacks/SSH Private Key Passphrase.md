@@ -11,4 +11,5 @@ In this section we will focus on cracking SSH private key passphrases.
 ![imagen](https://github.com/D1ie3z/Hacking/assets/88562299/9e3ec833-0d20-4473-b68d-3ee5b876b170)
 
 * hashcat -m SOFWARE ssh.hash ssh.passwords -r ssh.rule --force -> SOFTWARE: ID from hashcat, Also the ssh.rule is optional
-* 
+* If hashcat fucked up use john
+* john --wordlist=ssh.passwords --rules=sshRules ssh.hash (Also the rule is optional)

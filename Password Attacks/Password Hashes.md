@@ -6,7 +6,7 @@
 3. Calculate the cracking time
 4. Prepare wordlist
 5. Attack the hash
-* Identify a hash: hasid HASH
+* Identify a hash: hashid HASH
 * Cracking: https://hashes.com/en/decrypt/hash https://crackstation.net/
 * Hashcat: https://www.kali.org/tools/hashcat/
 

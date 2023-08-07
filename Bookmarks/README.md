@@ -33,3 +33,4 @@
 * https://blog.scrt.ch/2019/01/24/magento-rce-local-file-read-with-low-privilege-admin-rights/
 * https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf
 * https://www.hackingarticles.in/comprehensive-guide-on-html-injection/
+* dnspy

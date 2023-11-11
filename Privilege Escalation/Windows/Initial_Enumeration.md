@@ -45,6 +45,15 @@
 ## Readable/writable files and directories
 * accesscheck.exe -uws "Everyone" "C:\Program Files"
 
+## Powershell History Enabled
+* Get-History
+* (Get-PSReadlineOption).HistorySavePath -> Check where's the file located
+* At this point see if you have any file that contains passwords or any instruction (WATCH THE PARAMETERS!!)
+Look at this example
+PS C:\Users\john> $password = ConvertTo-SecureString "superpa$$w0rd$" -AsPlainText -Force
+PS C:\Users\john> $cred = New-Object System.Management.Automation.PSCredential("johnadmin", $password)
+PS C:\Users\john> Enter-PSSession -ComputerName PC20 -Credential $cred
+* You have to run evety single command if you have a content like this to verify if the credentials work or use the creds with evil-winrm
 # Automated
 
 * winpeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS

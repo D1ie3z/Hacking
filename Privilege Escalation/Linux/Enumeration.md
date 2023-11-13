@@ -94,6 +94,10 @@ As we are in the Linux realm, familiarity with Linux commands, in general, will 
 ## LIBATA
 * /sbin/modinfo libata
 
+## Footprints
+* watch -n 1 "ps -aux | grep pass"
+* sudo tcpdump -i lo -A | grep "pass"
+
 ## AUTOMATED
 * Unix-privesc-check /usr/bin/unix-privesc-check
 * LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
